@@ -1,0 +1,3 @@
+com.example.formula_calculator.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

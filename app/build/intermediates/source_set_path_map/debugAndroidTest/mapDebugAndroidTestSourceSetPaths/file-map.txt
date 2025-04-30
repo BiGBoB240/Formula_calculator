@@ -1,0 +1,6 @@
+com.example.formula_calculator.test.app-tracing-1.2.0-0 C:\Users\bogda\.gradle\caches\8.11.1\transforms\0c982b0bf732a0f8e199d9f32f350363\transformed\tracing-1.2.0\res
+com.example.formula_calculator.test.app-core-1.6.1-1 C:\Users\bogda\.gradle\caches\8.11.1\transforms\61056cfbad6f36df30fb1e0c9148d517\transformed\core-1.6.1\res
+com.example.formula_calculator.test.app-androidTest-2 C:\Users\bogda\AndroidStudioProjects\Formula_calculator\app\build\generated\res\resValues\androidTest\debug
+com.example.formula_calculator.test.app-mergeDebugAndroidTestResources-3 C:\Users\bogda\AndroidStudioProjects\Formula_calculator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.formula_calculator.test.app-mergeDebugAndroidTestResources-4 C:\Users\bogda\AndroidStudioProjects\Formula_calculator\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.formula_calculator.test.app-debugAndroidTest-5 C:\Users\bogda\AndroidStudioProjects\Formula_calculator\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

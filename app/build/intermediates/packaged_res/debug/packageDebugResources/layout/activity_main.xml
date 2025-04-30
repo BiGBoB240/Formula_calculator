@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:columnCount="2"
+    android:rowCount="4">
+
+    <Button
+        android:id="@+id/btnCircleArea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Circle Area" />
+
+    <Button
+        android:id="@+id/btnPythagoras"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Pythagoras" />
+
+    <Button
+        android:id="@+id/btnSines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Law of Sines" />
+
+    <Button
+        android:id="@+id/btnCosines"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Law of Cosines" />
+
+    <!-- Вторая строка -->
+    <Button
+        android:id="@+id/btnPercentageOf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="X% of Y" />
+
+    <Button
+        android:id="@+id/btnFindPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="X is what %" />
+
+    <Button
+        android:id="@+id/btnPercentageChange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="% Change" />
+
+    <Button
+        android:id="@+id/btnProportion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Proportion" />
+
+</GridLayout>
