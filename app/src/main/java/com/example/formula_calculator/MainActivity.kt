@@ -17,7 +17,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnPythagoras.setOnClickListener { launchFormulaActivity(PythagorasTheoremActivity::class.java) }
         binding.btnSines.setOnClickListener { launchFormulaActivity(LawOfSinesActivity::class.java) }
         binding.btnCosines.setOnClickListener { launchFormulaActivity(LawOfCosinesActivity::class.java) }
-
+        binding.btnPercentageOf.setOnClickListener { launchFormulaActivity(PercentageOfNumberActivity::class.java) }
+        binding.btnFindPercentage.setOnClickListener { launchFormulaActivity(FindPercentageActivity::class.java) }
+        binding.btnPercentageChange.setOnClickListener { launchFormulaActivity(PercentageChangeActivity::class.java) }
+        binding.btnProportion.setOnClickListener { launchFormulaActivity(ProportionActivity::class.java) }
 
     }
 

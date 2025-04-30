@@ -26,6 +26,10 @@
         <activity android:name=".LawOfSinesActivity" />
         <activity android:name=".LawOfCosinesActivity" />
 
+        <activity android:name=".PercentageOfNumberActivity" />
+        <activity android:name=".FindPercentageActivity" />
+        <activity android:name=".PercentageChangeActivity" />
+        <activity android:name=".ProportionActivity" />
     </application>
 
 </manifest>

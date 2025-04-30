@@ -42,6 +42,41 @@
         android:layout_margin="8dp"
         android:text="Law of Cosines" />
 
+    <Button
+        android:id="@+id/btnPercentageOf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="X% of Y" />
+
+    <Button
+        android:id="@+id/btnFindPercentage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="X is what %" />
+
+    <Button
+        android:id="@+id/btnPercentageChange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="% Change" />
+
+    <Button
+        android:id="@+id/btnProportion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_margin="8dp"
+        android:text="Proportion" />
 
 
 </GridLayout>
