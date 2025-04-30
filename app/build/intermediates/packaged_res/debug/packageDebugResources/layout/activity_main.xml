@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:columnCount="2"
-    android:rowCount="4">
+    android:columnCount="1"
+    android:rowCount="8">
 
     <Button
         android:id="@+id/btnCircleArea"
@@ -42,7 +42,6 @@
         android:layout_margin="8dp"
         android:text="Law of Cosines" />
 
-    <!-- Вторая строка -->
     <Button
         android:id="@+id/btnPercentageOf"
         android:layout_width="0dp"
@@ -78,5 +77,6 @@
         android:layout_rowWeight="1"
         android:layout_margin="8dp"
         android:text="Proportion" />
+
 
 </GridLayout>

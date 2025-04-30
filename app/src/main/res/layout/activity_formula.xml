@@ -8,7 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginTop="50dp">
 
         <TextView
             android:id="@+id/tvFormula"
@@ -22,15 +23,19 @@
             android:id="@+id/inputContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical" />
 
         <Button
             android:id="@+id/btnCalculate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Calculate"
-            android:layout_marginBottom="24dp"/>
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:minWidth="200dp" />
 
         <TextView
             android:id="@+id/tvResult"
