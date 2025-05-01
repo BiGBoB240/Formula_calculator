@@ -1,14 +1,14 @@
 package com.example.formula_calculator
 
 import android.widget.EditText
-import com.example.formula_calculator.FormulaActivity  // Убедитесь, что FormulaActivity существует
+import com.example.formula_calculator.FormulaActivity 
 
 class CircleAreaActivity : FormulaActivity() {
-    // Убедитесь, что в FormulaActivity эти методы объявлены как abstract
+    
     override fun setupInputFields() {
-        // Эти поля должны быть объявлены в FormulaActivity
+        
         tvFormula.text = "S = π × r²"
-        inputContainer.addView(createInputField("Радиус (r)"))
+        inputContainer.addView(createInputField("Radius (r)"))
         setupInputValidation(inputContainer.getChildAt(0) as EditText)
     }
 
