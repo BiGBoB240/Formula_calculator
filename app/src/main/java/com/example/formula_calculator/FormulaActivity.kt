@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 
 abstract class FormulaActivity : AppCompatActivity() {
-    // Объявляем все необходимые поля
+    
     protected lateinit var tvFormula: TextView
     protected lateinit var inputContainer: LinearLayout
     protected lateinit var tvResult: TextView
@@ -17,7 +17,7 @@ abstract class FormulaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_formula)
 
-        // Инициализируем View
+        
         tvFormula = findViewById(R.id.tvFormula)
         inputContainer = findViewById(R.id.inputContainer)
         tvResult = findViewById(R.id.tvResult)
@@ -57,9 +57,9 @@ abstract class FormulaActivity : AppCompatActivity() {
         btnCalculate.setOnClickListener {
             if (validateInputs()) {
                 val result = calculate()
-                tvResult.text = "Результат: %.2f".format(result)
+                tvResult.text = "Result: %.2f".format(result)
             } else {
-                Toast.makeText(this, "Заполните все поля", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Fill in all fields", Toast.LENGTH_SHORT).show()
             }
         }
     }
